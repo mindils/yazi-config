@@ -1,0 +1,9 @@
+# Настройки менеджера
+[manager]
+show_hidden = true # Показ скрытых файлов
+show_symlink = true # Показ пути символической ссылки
+
+[opener]
+edit = [
+	{ run = 'nvim "$@"', block = true },
+]
